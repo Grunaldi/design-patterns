@@ -12,6 +12,7 @@ public class ArrayHolderAdapterTest {
         int[] arr = new int[] {1,2,3,4,5};
         ArrayHolder arrayHolder = new SimpleArrayHolder(arr);
 
+        //TODO
         ArrayHolderAdapter arrayHolderAdapter = null;
         arrayHolderAdapter.add(6);
         arrayHolderAdapter.add(7);
@@ -24,6 +25,7 @@ public class ArrayHolderAdapterTest {
         int[] arr = new int[] {1,2,3,4,5};
         ArrayHolder arrayHolder = new SimpleArrayHolder(arr);
 
+        //TODO
         ArrayHolderAdapter arrayHolderAdapter = null;
         arrayHolderAdapter.add(6);
         arrayHolderAdapter.add(7);

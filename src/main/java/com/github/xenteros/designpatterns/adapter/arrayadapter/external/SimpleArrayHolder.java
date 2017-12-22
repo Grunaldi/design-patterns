@@ -8,7 +8,6 @@ public class SimpleArrayHolder implements ArrayHolder{
         this.array = array;
     }
 
-
     @Override
     public int[] getArray() {
         return array;
