@@ -11,7 +11,7 @@ public class SimpleArrayHolderTest {
         int[] arr = new int[]{1,2,3,4,5,6};
 
         ArrayHolder arrayHolder = new SimpleArrayHolder(arr);
-        Assert.assertEquals(arr, arrayHolder.getArray());
+        Assert.assertArrayEquals(arr, arrayHolder.getArray());
     }
 
     @Test
@@ -20,7 +20,7 @@ public class SimpleArrayHolderTest {
 
         ArrayHolder arrayHolder = new SimpleArrayHolder(new int[]{});
         arrayHolder.setArray(arr);
-        Assert.assertEquals(arr, arrayHolder.getArray());
+        Assert.assertArrayEquals(arr, arrayHolder.getArray());
     }
 
 
