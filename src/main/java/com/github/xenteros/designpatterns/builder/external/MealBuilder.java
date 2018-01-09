@@ -1,6 +1,4 @@
-package com.github.xenteros.designpatterns.builder;
-
-import com.github.xenteros.designpatterns.builder.external.Meal;
+package com.github.xenteros.designpatterns.builder.external;
 
 public interface MealBuilder {
 
